@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     tools:context=".Activity.DetailActivity">
 
     <ScrollView
@@ -34,7 +35,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
-                        android:layout_marginTop="48dp"
+                        android:layout_marginTop="24dp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:srcCompat="@drawable/back1" />
@@ -105,7 +106,7 @@
 
                             <TextView
                                 android:id="@+id/titleTxt"
-                                android:layout_width="310dp"
+                                android:layout_width="290dp"
                                 android:layout_height="wrap_content"
                                 android:text="title"
                                 android:textColor="@color/black"
@@ -176,6 +177,7 @@
                                     android:layout_marginStart="16dp"
                                     android:layout_marginTop="8dp"
                                     android:layout_marginEnd="16dp"
+                                    android:textColor="@color/black"
                                     android:text="-"
                                     android:textStyle="bold" />
                             </LinearLayout>
@@ -213,6 +215,7 @@
                                     android:layout_marginStart="16dp"
                                     android:layout_marginTop="8dp"
                                     android:layout_marginEnd="16dp"
+                                    android:textColor="@color/black"
                                     android:text="-"
                                     android:textStyle="bold" />
                             </LinearLayout>
@@ -248,6 +251,7 @@
                                     android:layout_marginStart="16dp"
                                     android:layout_marginTop="8dp"
                                     android:layout_marginEnd="16dp"
+                                    android:textColor="@color/black"
                                     android:text="-"
                                     android:textStyle="bold" />
                             </LinearLayout>
