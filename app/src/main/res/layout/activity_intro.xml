@@ -42,11 +42,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:scaleType="centerCrop"
+        android:paddingLeft="230dp"
         app:layout_constraintBottom_toTopOf="@+id/startbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/intro_car" />
+        app:srcCompat="@drawable/intro" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/startbtn"
